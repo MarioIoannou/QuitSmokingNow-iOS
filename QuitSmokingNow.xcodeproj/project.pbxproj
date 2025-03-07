@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		29702AC72D7B754700DC07C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29702AAC2D7B754500DC07C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29702AB32D7B754500DC07C8;
+			remoteInfo = QuitSmokingNow;
+		};
+		29702AD12D7B754700DC07C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29702AAC2D7B754500DC07C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29702AB32D7B754500DC07C8;
+			remoteInfo = QuitSmokingNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29702AB42D7B754500DC07C8 /* QuitSmokingNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuitSmokingNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29702AC62D7B754700DC07C8 /* QuitSmokingNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuitSmokingNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29702AD02D7B754700DC07C8 /* QuitSmokingNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuitSmokingNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		29702AB62D7B754500DC07C8 /* QuitSmokingNow */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuitSmokingNow;
+			sourceTree = "<group>";
+		};
+		29702AC92D7B754700DC07C8 /* QuitSmokingNowTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuitSmokingNowTests;
+			sourceTree = "<group>";
+		};
+		29702AD32D7B754700DC07C8 /* QuitSmokingNowUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuitSmokingNowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29702AB12D7B754500DC07C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29702AC32D7B754700DC07C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29702ACD2D7B754700DC07C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29702AAB2D7B754500DC07C8 = {
+			isa = PBXGroup;
+			children = (
+				29702AB62D7B754500DC07C8 /* QuitSmokingNow */,
+				29702AC92D7B754700DC07C8 /* QuitSmokingNowTests */,
+				29702AD32D7B754700DC07C8 /* QuitSmokingNowUITests */,
+				29702AB52D7B754500DC07C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29702AB52D7B754500DC07C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29702AB42D7B754500DC07C8 /* QuitSmokingNow.app */,
+				29702AC62D7B754700DC07C8 /* QuitSmokingNowTests.xctest */,
+				29702AD02D7B754700DC07C8 /* QuitSmokingNowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29702AB32D7B754500DC07C8 /* QuitSmokingNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29702ADA2D7B754700DC07C8 /* Build configuration list for PBXNativeTarget "QuitSmokingNow" */;
+			buildPhases = (
+				29702AB02D7B754500DC07C8 /* Sources */,
+				29702AB12D7B754500DC07C8 /* Frameworks */,
+				29702AB22D7B754500DC07C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				29702AB62D7B754500DC07C8 /* QuitSmokingNow */,
+			);
+			name = QuitSmokingNow;
+			packageProductDependencies = (
+			);
+			productName = QuitSmokingNow;
+			productReference = 29702AB42D7B754500DC07C8 /* QuitSmokingNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29702AC52D7B754700DC07C8 /* QuitSmokingNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29702ADD2D7B754700DC07C8 /* Build configuration list for PBXNativeTarget "QuitSmokingNowTests" */;
+			buildPhases = (
+				29702AC22D7B754700DC07C8 /* Sources */,
+				29702AC32D7B754700DC07C8 /* Frameworks */,
+				29702AC42D7B754700DC07C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29702AC82D7B754700DC07C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				29702AC92D7B754700DC07C8 /* QuitSmokingNowTests */,
+			);
+			name = QuitSmokingNowTests;
+			packageProductDependencies = (
+			);
+			productName = QuitSmokingNowTests;
+			productReference = 29702AC62D7B754700DC07C8 /* QuitSmokingNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29702ACF2D7B754700DC07C8 /* QuitSmokingNowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29702AE02D7B754700DC07C8 /* Build configuration list for PBXNativeTarget "QuitSmokingNowUITests" */;
+			buildPhases = (
+				29702ACC2D7B754700DC07C8 /* Sources */,
+				29702ACD2D7B754700DC07C8 /* Frameworks */,
+				29702ACE2D7B754700DC07C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29702AD22D7B754700DC07C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				29702AD32D7B754700DC07C8 /* QuitSmokingNowUITests */,
+			);
+			name = QuitSmokingNowUITests;
+			packageProductDependencies = (
+			);
+			productName = QuitSmokingNowUITests;
+			productReference = 29702AD02D7B754700DC07C8 /* QuitSmokingNowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29702AAC2D7B754500DC07C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					29702AB32D7B754500DC07C8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					29702AC52D7B754700DC07C8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 29702AB32D7B754500DC07C8;
+					};
+					29702ACF2D7B754700DC07C8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 29702AB32D7B754500DC07C8;
+					};
+				};
+			};
+			buildConfigurationList = 29702AAF2D7B754500DC07C8 /* Build configuration list for PBXProject "QuitSmokingNow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29702AAB2D7B754500DC07C8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 29702AB52D7B754500DC07C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29702AB32D7B754500DC07C8 /* QuitSmokingNow */,
+				29702AC52D7B754700DC07C8 /* QuitSmokingNowTests */,
+				29702ACF2D7B754700DC07C8 /* QuitSmokingNowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29702AB22D7B754500DC07C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29702AC42D7B754700DC07C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29702ACE2D7B754700DC07C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29702AB02D7B754500DC07C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29702AC22D7B754700DC07C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29702ACC2D7B754700DC07C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29702AC82D7B754700DC07C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29702AB32D7B754500DC07C8 /* QuitSmokingNow */;
+			targetProxy = 29702AC72D7B754700DC07C8 /* PBXContainerItemProxy */;
+		};
+		29702AD22D7B754700DC07C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29702AB32D7B754500DC07C8 /* QuitSmokingNow */;
+			targetProxy = 29702AD12D7B754700DC07C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29702AD82D7B754700DC07C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29702AD92D7B754700DC07C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29702ADB2D7B754700DC07C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuitSmokingNow/Preview Content\"";
+				DEVELOPMENT_TEAM = B44W2273ND;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mariosioannou.QuitSmokingNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29702ADC2D7B754700DC07C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuitSmokingNow/Preview Content\"";
+				DEVELOPMENT_TEAM = B44W2273ND;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mariosioannou.QuitSmokingNow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29702ADE2D7B754700DC07C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B44W2273ND;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mariosioannou.QuitSmokingNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuitSmokingNow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuitSmokingNow";
+			};
+			name = Debug;
+		};
+		29702ADF2D7B754700DC07C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B44W2273ND;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mariosioannou.QuitSmokingNowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuitSmokingNow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuitSmokingNow";
+			};
+			name = Release;
+		};
+		29702AE12D7B754700DC07C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B44W2273ND;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mariosioannou.QuitSmokingNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuitSmokingNow;
+			};
+			name = Debug;
+		};
+		29702AE22D7B754700DC07C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B44W2273ND;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mariosioannou.QuitSmokingNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuitSmokingNow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29702AAF2D7B754500DC07C8 /* Build configuration list for PBXProject "QuitSmokingNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29702AD82D7B754700DC07C8 /* Debug */,
+				29702AD92D7B754700DC07C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29702ADA2D7B754700DC07C8 /* Build configuration list for PBXNativeTarget "QuitSmokingNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29702ADB2D7B754700DC07C8 /* Debug */,
+				29702ADC2D7B754700DC07C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29702ADD2D7B754700DC07C8 /* Build configuration list for PBXNativeTarget "QuitSmokingNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29702ADE2D7B754700DC07C8 /* Debug */,
+				29702ADF2D7B754700DC07C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29702AE02D7B754700DC07C8 /* Build configuration list for PBXNativeTarget "QuitSmokingNowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29702AE12D7B754700DC07C8 /* Debug */,
+				29702AE22D7B754700DC07C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29702AAC2D7B754500DC07C8 /* Project object */;
+}
