@@ -1,18 +1,13 @@
-//
-//  QuitSmokingNowApp.swift
-//  QuitSmokingNow
-//
-//  Created by Marios Ioannou on 7/3/25.
-//
-
 import SwiftUI
 import SwiftData
 
 @main
 struct QuitSmokingNowApp: App {
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Cigarette.self,
+            UserPrefs.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +20,7 @@ struct QuitSmokingNowApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
         .modelContainer(sharedModelContainer)
     }

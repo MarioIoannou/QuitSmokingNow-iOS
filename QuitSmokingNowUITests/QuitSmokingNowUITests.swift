@@ -1,10 +1,3 @@
-//
-//  QuitSmokingNowUITests.swift
-//  QuitSmokingNowUITests
-//
-//  Created by Marios Ioannou on 7/3/25.
-//
-
 import XCTest
 
 final class QuitSmokingNowUITests: XCTestCase {

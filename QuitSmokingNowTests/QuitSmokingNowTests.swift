@@ -1,10 +1,3 @@
-//
-//  QuitSmokingNowTests.swift
-//  QuitSmokingNowTests
-//
-//  Created by Marios Ioannou on 7/3/25.
-//
-
 import Testing
 @testable import QuitSmokingNow
 
